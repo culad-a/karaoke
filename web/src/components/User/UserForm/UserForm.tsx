@@ -39,7 +39,7 @@ const UserForm = (props: UserFormProps) => {
           className="rw-label"
           errorClassName="rw-label rw-label-error"
         >
-          Name
+          Le(s) nom(s) du/des participant(s)
         </Label>
 
         <TextField
@@ -57,7 +57,7 @@ const UserForm = (props: UserFormProps) => {
           className="rw-label"
           errorClassName="rw-label rw-label-error"
         >
-          Chanson
+          Le nom de la chanson
         </Label>
 
         <TextField
@@ -72,7 +72,7 @@ const UserForm = (props: UserFormProps) => {
 
         <div className="rw-button-group">
           <Submit disabled={props.loading} className="rw-button rw-button-blue">
-            Save
+            Enregistrer
           </Submit>
         </div>
       </Form>
